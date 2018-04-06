@@ -7,6 +7,7 @@ var newName = 'Czarek'
 
 if (allNames.indexOf(newName) === -1) {
         var x = allNames.push(newName);
-    } else false
+    } else {false;
+           } 
 
     console.log(allNames)
